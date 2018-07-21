@@ -1,0 +1,15 @@
+#<Scavenger>
+
+    #<Loot Pool>
+
+        set GD_CustomItemPools_Lilac.Psycho.BanditEpic BalancedItems ((ItmPoolDefinition=None,InvBalanceDefinition=InventoryBalanceDefinition'GD_Artifacts.A_Item.A_Stockpile',Probability=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000),bDropOnDeath=True))
+
+        #<hotfix><key>"SparkLevelPatchEntry-ScavengerStockPile1"</key><value>",GD_Population_Marauder.Balance.PawnBalance_Scavenger,DefaultItemPoolList,,((ItemPool=ItemPoolDefinition'GD_CustomItemPools_Lilac.Psycho.BanditEpic',PoolProbability=(BaseValueConstant=0.000000,BaseValueAttribute=AttributeDefinition'GD_Itempools.DropWeights.DropODDS_BossUniqueRares',InitializationDefinition=None,BaseValueScaleConstant=1.000000)))"</value><on>
+
+    #</Loot Pool>
+
+#</Scavenger>
+
+set Transient.SparkServiceConfiguration_6 Keys ("SparkLevelPatchEntry-ScavengerStockPile1")
+
+set Transient.SparkServiceConfiguration_6 Values (",GD_Population_Marauder.Balance.PawnBalance_Scavenger,DefaultItemPoolList,,((ItemPool=ItemPoolDefinition'GD_CustomItemPools_Lilac.Psycho.BanditEpic',PoolProbability=(BaseValueConstant=0.000000,BaseValueAttribute=AttributeDefinition'GD_Itempools.DropWeights.DropODDS_BossUniqueRares',InitializationDefinition=None,BaseValueScaleConstant=1.000000)))")

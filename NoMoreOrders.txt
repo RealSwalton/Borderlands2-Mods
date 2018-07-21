@@ -1,0 +1,15 @@
+<No More Orders>
+
+	#<hotfix><key>"SparkLevelPatchEntry-EQ_NOORDERS1"</key><value>",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,LinkedMission,,MissionDefinition'GD_Episode02.M_Ep2a_MoreGuns'"</value><on>
+
+    #<hotfix><key>"SparkLevelPatchEntry-EQ_NOORDERS2"</key><value>",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,MissionStatesToLinkTo,,(bNotStarted=False,bActive=False,bRequiredObjectivesComplete=False,bReadyToTurnIn=False,bComplete=True,bFailed=False)"</value><on>
+
+    #<hotfix><key>"SparkLevelPatchEntry-EQ_NOORDERS3"</key><value>",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,bIsObjectiveSpecific,,False"</value><on>
+
+    #<hotfix><key>"SparkLevelPatchEntry-EQ_NOORDERS4"</key><value>",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,bInstanced,,False"</value><on>
+
+</No More Orders>
+	
+set Transient.SparkServiceConfiguration_6 Keys ("SparkLevelPatchEntry-EQ_NOORDERS1","SparkLevelPatchEntry-EQ_NOORDERS2","SparkLevelPatchEntry-EQ_NOORDERS3","SparkLevelPatchEntry-EQ_NOORDERS4")
+
+set Transient.SparkServiceConfiguration_6 Values (",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,LinkedMission,,MissionDefinition'GD_Episode02.M_Ep2a_MoreGuns'",",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,MissionStatesToLinkTo,,(bNotStarted=False,bActive=False,bRequiredObjectivesComplete=False,bReadyToTurnIn=False,bComplete=True,bFailed=False)",",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,bIsObjectiveSpecific,,False",",GD_Balance_Treasure.InteractiveObjectsTrap.MidgetHyperion.InteractiveObj_CardboardBox_MidgetHyperion:BehaviorProviderDefinition_1.BehaviorSequenceEnableByMission_0,bInstanced,,False")
